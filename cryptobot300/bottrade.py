@@ -9,7 +9,8 @@ class BotTrade(object):
 		self.output.log("Trade opened")
 		if (stopLoss):
 			self.stopLoss = currentPrice - stopLoss
-		
+		else:
+			self.stopLoss = stopLoss
 	
 	def close(self,currentPrice):
 		self.status = "CLOSED"
