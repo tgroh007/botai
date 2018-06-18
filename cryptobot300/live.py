@@ -7,7 +7,7 @@ from botlog import BotLog
 from botcandlestick import BotCandlestick
 
 def main(argv):
-	chart = BotChart("poloniex","BTC_XMR",300,False)
+	chart = BotChart("poloniex","BTC_LTC",300,False)
 
 	strategy = BotStrategy()
 
